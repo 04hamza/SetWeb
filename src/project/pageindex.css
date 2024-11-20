@@ -1,0 +1,39 @@
+.carre{
+    width: 200px;
+    height: 200px;
+    border: 2px black solid;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 100px;
+    padding: 10px;
+}
+.image{
+    height: 100%;
+    width: 100%;
+}
+button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 5px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+p{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,20px);
+    margin-top: 5px;
+    font-size: 30px;
+    background-color: chartreuse;
+    color: aliceblue;
+    font-weight: bolder;
+    padding: 2px 5px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}

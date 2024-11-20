@@ -1,0 +1,83 @@
+
+.contact-container {
+    max-width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,50px);
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px rgb(219, 219, 219);
+  }
+  
+  .contact-container  h2 {
+    color: rgb(37, 96, 224);
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .infol {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .infol div {
+    text-align: left;
+  }
+  
+  .infol h4 {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .infol p {
+    color: #777;
+    margin: 0;
+  }
+  
+  .forml,.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .forml label,
+  .form label {
+    width: 100%;
+    margin: 5px 0;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .forml input ,.form input,textarea{
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+  }
+  
+  .forml button ,.form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-200px);
+  }
+  
+  .form button:hover {
+    background-color: black;
+  }
+  .forml button:hover {
+    background-color: black;
+  }
+ 

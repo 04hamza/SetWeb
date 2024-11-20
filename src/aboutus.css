@@ -1,0 +1,58 @@
+
+.AboutUs h1,.OurMission h1{
+   text-align: center;
+   font-size: 35px;
+   color: rgb(37, 96, 224);
+}
+.OurMission div ,.AboutUs div{
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.OurMission div h3 ,.AboutUs div h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.OurMission div div ,.AboutUs div div{
+    text-align: center;
+    text-transform: capitalize;
+}
+.cardcollections{
+    display:  flex;
+    justify-content: space-around;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 5px;
+}
+.cardcollections div{
+    box-shadow: 1px 1px 5px 1px rgb(255, 255, 255);
+    margin: 10px;
+    background-color: rgb(29, 81, 252);
+    padding: 5px;
+    height: 270px;
+    border-radius: 3px
+    
+    ;
+}
+.cardcollections div h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+.cardcollections div p{
+    background-color: transparent;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    color: white;
+}
+.cardcollectionstitle{
+    text-align: center;
+   font-size: 35px;
+   color: rgb(37, 96, 224);
+}

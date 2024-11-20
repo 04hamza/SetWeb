@@ -1,0 +1,58 @@
+.caontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Card{
+    width: 330px;
+    margin-top: 10px;
+    padding: 5px;
+    box-shadow: 1px 1px 20px 1px rgb(231, 231, 231);
+    transition: all 0.5s ;
+    color: black;
+    height:400px ;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+.Card .image{
+   padding: 10px;
+   height: 160px;
+}
+.Card .image img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-55%);
+}
+.Card .text{
+    padding: 10px;
+}
+.Card .text p{
+    padding: 10px;
+    color: black;
+    width: 300px;
+    font-size: 15px;
+    background-color: white;
+}
+.Card:hover{
+    width: 350px;
+}
+.Card:hover .button{
+    background-color: rgb(195, 194, 194)
+}
+.button{
+    padding:10px;
+    height: 17px;
+    width: 17px;
+    z-index: 1;
+    display: inline-block;
+    transition: all 0.9s;
+    border-radius: 50%;
+    transform: translateX(270px);
+}
+.bi-box-arrow-in-up-right{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-5px);
+    color: white;
+}

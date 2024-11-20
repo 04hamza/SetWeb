@@ -1,0 +1,70 @@
+.CardProduct{
+    display: flex;
+    width: 80%;
+    padding: 15px;
+    margin: 10px 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 1px 20px 1px rgb(231, 231, 231);
+    transition: all 0.5s ;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+.imagel {
+   padding: 10px;
+   background-color: rgb(255, 255, 255);
+}
+.imagel img{
+    height: 400px;
+    width: 400px;
+}
+.info{
+    padding: 10px 10px;
+}
+.info .span{
+    margin-top: 10px;
+     display: flex;
+     justify-content: space-around;
+}
+span{
+    font-weight: bolder;
+}
+.CardProduct button{
+    position: absolute;
+    bottom: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 6px;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+.CardProduct .addtocard{
+    left: 780px;
+
+}
+.CardProduct .buythisitem{
+    left: 900px;
+}
+.CardProduct button:hover{
+  background-color: rgb(233, 227, 227);
+}
+.to{
+    text-decoration: none;
+    color: black;
+}
+.ToCard{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 200px;
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+}

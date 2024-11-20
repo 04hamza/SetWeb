@@ -1,0 +1,28 @@
+
+.nav{
+    background-color: rgb(108, 155, 232);
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 30px;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.name div{
+   margin-left: 10px;
+}
+label{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+.div{
+    font-size: 30px;
+    font-weight: bolder;
+}

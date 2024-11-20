@@ -1,0 +1,42 @@
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(29, 81, 252);
+    margin-top: 100px;
+    padding: 20px;
+    display: flex;
+}
+footer .cart{
+    display: flex;
+    padding: 10px;
+    font-size: 15px;
+    width: 300px;
+    flex: 1;
+}
+footer .cart .text h3{
+    margin-bottom: 0px;
+    color: white;
+    font-size:17px ;
+}
+footer .cart .text p{
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight:500;
+    text-align:start;
+    width: 230px;
+    flex: 5;
+    background-color:transparent;
+}
+.icon{
+  flex: 1;
+  transform: translateY(12px);
+  padding: 10px;
+}
+.bi-truck,.bi-archive,.bi-cone,.bi-bag-x{
+    color: white;
+}
+@media (max-width:500px){
+    footer .cart{
+       flex: 1;
+    }
+}
